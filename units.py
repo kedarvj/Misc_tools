@@ -18,7 +18,10 @@ days_from_sec = float(a) / 60 / 60 / 24
 days_from_min = float(a) / 60 / 24
 days_from_hours = float(a) / 24
 years_from_hours = float(a)/24/365
-dt = datetime.datetime.fromtimestamp(a)
+try:
+    dt = datetime.datetime.fromtimestamp(a)
+except ValueError:
+    dt="not a date"
 
 format_strings = [
     " sec = {0:.2f} hours".format(Hours_from_sec),

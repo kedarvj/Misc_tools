@@ -2,6 +2,7 @@
 # Units Converter Script
 # Authors: Kedar Vaijanapurkar, Denis Subbota
 # GitHub: https://github.com/kedarvj
+# Website: https://kedar.nitty-witty.com/blog
 # Description: This script converts file sizes between sec, min, hour, bytes, kilobytes, megabytes, gigabytes, and terabytes. 
 #              It provides a simple command-line tool for converting and comparing file sizes.
 #              Basically this was created to be used as an Alfred Workflow for quick units conversion.

@@ -3,7 +3,7 @@
 # Authors: Kedar Vaijanapurkar, Denis Subbota
 # GitHub: https://github.com/kedarvj
 # Website: https://kedar.nitty-witty.com/blog
-# Description: This script converts file sizes between sec, min, hour, bytes, kilobytes, megabytes, gigabytes, and terabytes. 
+# Description: This script converts file sizes between sec, min, hour, bytes, kilobytes, megabytes, gigabytes, and terabytes.
 #              It provides a simple command-line tool for converting and comparing file sizes.
 #              Basically this was created to be used as an Alfred Workflow for quick units conversion.
 import sys
@@ -31,8 +31,8 @@ format_strings = [
     " min = {0:.2f} hours".format(Hours_from_min),
     " min = {0:.2f} days".format(days_from_min),
     " hours = {0:.2f} days".format(days_from_hours),
-    " hours = {0:.2f} years".format(years_from_hours)
-    " hours = {0:.2f} years".format(years_from_days)
+    " hours = {0:.2f} years".format(years_from_hours),
+    " years = {0:.2f} days".format(years_from_days)
 ]
 
 for format_str in format_strings:
